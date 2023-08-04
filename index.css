@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Belleza', sans-serif;
+    
+}
+
+
+body{
+    background-image: url(/img/bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    height: 60vh;
+
+}
+
+main{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition-duration: 1s;
+}
+
+main svg{
+    display: block;
+    position: relative;
+    top: 1px;
+}
+
+path{
+    background-color: #09b103;
+}
+
+#menu{
+    height: auto;
+    background-color: #c90000;
+    text-align: center;
+}
+
+    #logo-nome{
+        height: 180px;
+        position: relative;
+        top: -180px;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+    }
+
+        #img-perfil{
+            border-radius: 50%;
+            border: 0px;
+            width: 250px;
+        }
+
+        #logo-nome h1{
+            font-size: 32px;
+            line-height: 100%;
+        }
+
+        #logo-nome span{
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+    #visible{
+        display: none;
+    }
+
+    #qrcode{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    #redes ul{
+        display: flex;
+        justify-content: center;
+    }
+
+        #redes li{
+            margin: 20px;
+            padding: 5px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+#icone{
+    transition-duration: 0.3s;
+}
+
+    .fa-solid{
+        cursor: pointer;
+        margin: 25px;
+        
+        transition: all 1s ease;
+    }
+
+
+
+
+@media only screen and (max-width: 960px){
+
+    body{
+        background-position: center;
+        background-attachment: local;
+        height: 70vh;
+    
+    }
+
+    main svg{
+        display: block;
+        position: relative;
+        top: 2px;
+    }
+
+    #logo-nome{
+        height: 220px;
+        position: relative;
+        top: -130px;
+    }
+
+    #qrcode{
+        width: 250px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 540px){
+
+    body{
+        height: 60vh;
+    
+    }
+
+    #redes li{
+        margin: 10px;
+    }
+
+    #logo-nome{
+        height: 220px;
+        position: relative;
+        top: -130px;
+    }
+
+    #qrcode{
+        width: 200px;
+    }
+
+    #logo-nome h1{
+        font-size: 5.1vw;
+        line-height: 100%;
+    }
+
+    #logo-nome span{
+        font-size: 4vw;
+        font-weight: 400;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+
+    #logo-nome{
+        height: 110px;
+        position: relative;
+        top: -55px;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        height: 200px;
+        position: relative;
+        top: -130px;
+    }
+
+    #img-perfil{
+        width: 250px;
+    }
+    
+        #logo-nome h1{
+            font-size: 6vw;
+        }
+
+        #logo-nome span{
+            font-size: 4.8vw;
+        }
+
+    body{
+        background-size: 600px;
+        height: 70vh;
+    
+    }
+
+    #qrcode img{
+        width: 150px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 300px){
+    
+    body{
+        background-size: 400px;
+        height: 70vh;
+    }
+
+    #logo-nome{
+        height: 130px;
+        position: relative;
+        top: -70px;
+    }
+    
+    #img-perfil{
+        width: 150px;
+    }
+
+    #qrcode{
+        width: 130px;
+    }
+}
