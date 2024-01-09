@@ -2,7 +2,7 @@ import '../styles/globals.scss'
 import { Analytics } from '@vercel/analytics/react'
 
 export const metadata = {
-  title: 'Ômega Screen | Comercial',
+  title: 'Ômega Screen | Andrey Vinícius',
   description: 'Indústria especializada em tintas serigráficas, produzindo um padrão de qualidade desde 2021 é referência em Pernambuco.'
 }
 
